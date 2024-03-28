@@ -1,0 +1,77 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    margin-top: 50px;
+}
+
+/* Main form styles */
+.main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px; /* Slightly decrease border-radius */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1); /* Lighten box-shadow */
+}
+
+.main h2 {
+    font-size: 26px; /* Increase heading font size */
+    text-align: center;
+    margin-bottom: 20px;
+    color: #764776;
+}
+
+/* Input field styles */
+input.box {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input.box:focus {
+    border-color: #764776;
+    outline: none;
+}
+
+/* Submit button styles */
+input[type=submit] {
+    width: 100%;
+    background-color: #764776;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #5c375c;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main {
+        padding: 15px;
+    }
+    
+    input.box {
+        font-size: 14px;
+    }
+}
